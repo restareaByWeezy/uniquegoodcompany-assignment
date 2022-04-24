@@ -1,0 +1,61 @@
+.global {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+.selections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-btn {
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+}
+.img-btn:hover {
+  background-color: #f8f398;
+}
+.img-btn.clicked {
+  background-color: #cbf078;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 220px;
+  margin: 10px;
+}
+.btn {
+  width: 100px;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid grey;
+  cursor: pointer;
+
+  padding: 5px;
+}
+.retry-btn {
+  background-color: #ff6464;
+}
+.submit-btn {
+  background-color: #91c483;
+}
